@@ -1,0 +1,697 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.head-1{
+    width: 100%;
+    height: 60px;
+    background-color: rgba(47,238,235,0.1);
+    overflow: hidden;
+}
+.social ul {
+    list-style-type: none;
+    margin-left: 100px
+}
+.social ul li {
+    float: left;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.contact ul{
+    list-style-type: none;
+    margin-right: 70px;
+}
+.contact ul li{
+    float: right;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.contact ul li a{
+    margin-right: 5px;
+    text-decoration: none
+}
+.contact ul li a img{
+    width: 25px;
+    height: 20px
+}
+/*Header One End*/
+.header-2{
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 10px
+}
+.apppoinment{
+    background-color: #0099ff;
+    height: 60px;
+    width: 190px;
+    border-radius: 5px
+}
+.apppoinment > a{
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    margin-left: 15px !important ;
+    font-weight: bold
+}
+.apppoinment:hover{
+    background: #26D2fd
+}
+.nav > ul{
+    display: flex;
+    list-style-type: none;
+}
+.nav > ul > li{
+    padding: 30px 10px;
+    margin: 0px 10px;
+}
+.nav > ul > li > a{
+    text-decoration: none;
+    color: rgba(0,0,0,0.6);
+    font-weight: bold
+}
+.togg{
+    display: flex;
+    justify-content: space-around;
+    display: none
+}
+.togg > img{
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.togg > label > img{
+    height: 30px;
+    margin-top: 20px;
+}
+#toggle{
+    display: none
+}
+/*Header tow End*/
+.care{
+    background-image: url(Icon/banner1.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%px;
+    height: 544px;
+    text-align: left;
+    padding: 100px;
+    padding-left: 300px;
+    transition-duration: 3s;
+    overflow: hidden;
+    clear: both;
+}
+.care h1{
+    margin-top: 20px;
+    font-size: 60px
+}
+.care h2{
+    padding: 20px;
+    font-family: monospace;
+    font-size: 50px
+}
+.care p{
+    padding: 10px;
+    width: 400px;
+    padding-bottom: 40px;
+    color: silver
+}
+.care a{
+    text-decoration: none;
+    padding: 20px;
+    background-color: #02d5e8;
+    color: white;
+    border-radius: 5px
+}
+.care a:hover{
+    background-color: #8EE5FD
+}
+.service{
+    width: 100% ;
+    height: 250px;
+    background-color: #99ccff;
+    display: flex;
+    text-align: left;
+    overflow: hidden;
+}
+.hospitality,.chamber{
+    width: 35%;
+    height: 300px;
+    color: white
+}
+.hospitality img,.emargecy img,.chamber img{
+    margin-left: 100px;
+    width: 90px;
+    height: 90px
+}
+.hospitality h3,.emargecy h3,.chamber h3{
+    margin-left: 100px;
+    font-size: 30px;
+}
+.hospitality p,.emargecy p,.chamber p{
+    margin-left: 80px;
+    padding: 25px;
+}
+.hospitality a,.emargecy a,.chamber a{
+    margin-left: 100px;
+    margin-top: 40px;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px
+}
+.chamber:hover{
+    background-color: #6699ff
+}
+.emargecy{
+    width: 30%;
+    height: 300px;
+    color: white;
+    background-color: #6699ff
+}
+.emargecy:hover{
+    background-color: #6699ff
+}
+.hospitality:hover{
+    background-color: #6699ff
+}
+.welcome{
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    background-color: #fff;
+    display: inline-block;
+}
+.imgdoc{
+    width: 500px;
+    height: 400px;
+    float: left;
+    margin-left: 50px;
+    margin-top: 80px;
+    background-image: url(icon/welcome.png);
+}
+.imgdoc img {
+    height: 350px;
+    width: 450px
+}
+.welcomedoc{
+    float: left;
+    width: 500px;
+    height: 400px;
+    margin-top: 80px;
+    margin-left: 190px
+}
+.welcomedoc h1{
+    padding: 20px 0px;
+    width: 300px
+}
+.welcomedoc h3{
+    font-family:sans-serif;
+}
+.welcomedoc p{
+    color: silver;
+    padding: 15px;
+}
+.welcomedoc ul{
+    list-style-type: none;
+    font-size: 15px;
+    font-family:inherit;
+    color: silver;
+}
+.more{
+    text-decoration: none;
+    color: aqua;
+    border: 2px solid aqua;
+    padding: 7px;
+    border-radius: 5px;
+    margin-top: 30px
+}
+.our-Service{
+    width: 100%;
+    height: 900px;
+    overflow: hidden;
+    background-color: #fff;
+    display: inline-block;
+    /* float: left; */
+    background-color: azure;
+    text-align: center;
+    text-transform: capitalize;
+}
+.our-Service h1{
+    margin-top: 50px
+}
+.our-Service p{
+    margin: 20px;
+    color: silver
+}
+.Department{
+    height: 300px;
+    width: 350px;
+    overflow: hidden;
+    float: left;
+    margin-left: 80px;
+    background-color: white;
+    margin-top: 20px
+}
+.Department img{
+    height: 190px;
+    width: 374px;
+    overflow: hidden;
+    transform: scale(1);
+    transition: 0.3s ease-in-out;
+}
+.Department img:hover{
+    transform: scale(1.2);
+}
+.Department h3{
+    padding: 10px;
+    margin-top: 5px
+}
+.Department p{
+    padding: 10px;
+    color: #cccccc
+}
+.Department a{
+    text-decoration: none;
+    color: #66ccff
+}
+.bed{
+    background-image: url(Icon/bed.webp);
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    overflow: hidden;
+    color: white
+}
+.bed img{
+    margin-top: 100px;
+}
+.bed p{
+    padding: 30px;
+    width: 620px;
+    margin-left: 300px
+    
+}
+.leading{
+    width: 100%;
+    height: 400px;
+    overflow: hidden
+}
+.edge{
+    height: 220px;
+    width: 400px;
+    float: left;
+    margin-left: 100px;
+    margin-top: 50px
+}
+.edge img{
+    height: 65px;
+    width: 65px;
+    margin-left: 15px
+}
+.edge h3{
+    padding: 20px;
+    font-size: 30px
+}
+.edge p{
+    font-size: 17px;
+    margin-left: 15px
+}
+.edge-img{ 
+    height: 250px;
+    width: 500px;
+    float: left;
+    margin-left: 150px;
+    margin-top: 100px;
+}
+.expart{
+    width: 100%;
+    height: 450px;
+    overflow: hidden;
+    text-align: center
+}
+.expart h1{
+    text-align: left;
+    margin-left: 60px;
+    padding: 25px
+}
+.alom{
+    height: 300px;
+    float: left;
+    margin-left: 60px
+}
+.alom h3{
+    padding: 10px
+}
+.alom h6{
+    color: silver
+}
+.bener{
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+    text-align: center;
+    color: #fff;
+}
+.male{
+    background-image: url(Icon/benar%202.webp);
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 100%;
+    float: left;
+    background-position: center;
+}
+.male h3{
+    text-align: left;
+    margin-left: 90px;
+    padding: 10px;
+    margin-top: 60px;
+    font-size: 30px
+}
+.male p{
+    text-align: left;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+.male a{
+    float: right;
+    margin-right: 50px;
+    text-decoration: none;
+    border: 2px solid #fff;
+    padding: 10px 40px;
+    border-radius: 100px;
+    color: #fff;
+}
+.female{
+    background-image: url(Icon/benar%201.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.female h3{
+    text-align: left;
+    margin-left: 95px;
+    padding: 10px;
+    margin-top: 60px;
+    font-size: 30px
+}
+.female p{
+    text-align: left;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+.female a{
+    float: right;
+    margin-right: 50px;
+    text-decoration: none;
+    border: 2px solid #fff;
+    padding: 10px 40px;
+    border-radius: 100px;
+    color: #fff; 
+}
+.female a:hover{
+    background-color: rgba(0,0,0,0.5)  ;
+}
+.male a:hover{
+    background-color: rgba(0,0,0,0.5);
+}
+.hr{
+    width: 700px;
+    margin-left: 300px;
+    margin-top: 70px
+}
+.footer-1{
+    width: 100%;
+    height: 500px;
+    background-color: #333333;
+    text-transform: capitalize;
+    overflow: hidden
+}
+.footr-part{
+    width: 25%;
+    height: 100%;
+    float: left;
+    margin-top: 100px
+}
+.mg-left{
+    width: 25%;
+    height: 100%;
+    float: left;
+    margin-top: 100px;
+}
+.mg-left img{
+    margin-left: 30px;
+    padding: 20px
+}
+.mg-left p{
+    margin-left: 30px;
+    padding: 20px;
+    color: silver
+}
+.mg-left ul li{
+    list-style-type: none;
+    float: left;
+}
+.footr-part h2{
+    color: #fff
+}
+.footr-part ul li{
+    list-style-type: none;
+    padding: 10px
+}
+.footr-part ul li a{
+    text-decoration: none;
+    color: silver;
+}
+.footr-part p{
+    width: 250px;
+    margin-top: 20px;
+    color: silver
+}
+.footer-2{
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    overflow: hidden;
+    background-color: #000;
+    color: silver;
+    font-weight: bold;
+}
+.footer-2 p{
+    margin-top: 20px; 
+}
+.alom{
+    transform: scale(1);
+    transition: 0.3s ease-in-out;
+}
+.alom:hover{
+    transform: scale(1.2)
+}
+.footr-part > ul > li:hover{
+    background: rgba(0,0,0,0.2)
+}
+.mg-left > ul > li > img:hover{
+    background: rgba(0,0,0,0.4);
+    border-radius: 100%
+}
+@media screen and (max-width:768px){
+    .head-1 {
+        height: 100px;
+        overflow:hidden
+    }
+    .social ul {
+        margin-left: 150px;
+    }
+    .contact ul {
+        margin-right: 75px;
+    }
+        /*header1-end*/
+.logo{
+        display: none
+    }
+    .apppoinment{
+        display: none
+    }
+    .nav > ul{
+        flex-direction: column;
+        align-items: center;
+        display: none
+    }
+    .togg{
+        display: flex
+    }
+    #toggle:checked + div > div > ul{
+        display: flex
+    }
+/*    header tow End*/
+    .care{
+      padding: 5px;
+      padding-left: 61px;
+    }
+    .care h1{
+        margin-top: 14px;
+    }
+    .care h2{
+        padding: 5px
+    }
+/*    care End*/
+    .service{
+        height: 860px;
+        display:list-item;
+    }
+    .hospitality, .chamber,.emargecy{
+        width: 100%
+    }
+/*    serviceEnd   */
+    .welcome{
+        width: 100%;
+        height: 861px;
+    }
+    .imgdoc img{
+        width: 360px;
+        height: 314px;
+        margin-left: 30px;
+        }
+    .imgdoc{
+        margin-top: 47px;
+    }
+    .welcomedoc {
+    margin-top: 1px;
+    margin-left: 14px;
+}
+/*    welcome End  */
+    .our-Service {
+    width: 100%;
+    height: 2114px;}
+/*our-Department*/
+    .bed p{
+        margin-left: 50px;
+        width: 450px;
+    }
+/*    bead End*/
+    .leading {
+    width: 100%;
+    height: 600px;
+    }
+    .edge {
+    margin-left: 20px;
+    margin-top: 20px;
+    }
+    .edge-img {
+    height: 250px;
+    width: 100px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 20px;
+    }
+/*    leadding*/
+    .expart {
+    width: 100%;
+    height: 1343px;
+    }
+    .expart {
+    margin-left: 50px;
+    }
+/*    expart Doctor*/
+    .hr{
+    width: 400px;
+    margin-left: 50px;
+    margin-top: 70px
+    }
+    .bener {
+        width: 100%;
+        height: 500px;
+        display: flex;
+        display: list-item
+    }
+    .male{
+        width: 100%;
+        height: 250px;
+        
+    }
+    .female{
+        width: 100%;
+        height: 250px;
+    }
+     /* bener   */
+    .footer-1 {
+        width: 100%;
+        height: 974px;
+        text-align: center;
+    }
+    .footr-part {
+        width: 100%;
+        height: 250px;
+        float: left;
+        margin-top: 40px;
+        height: 200px;
+        margin-bottom: 10px;
+    }
+    .mg-left {
+        width: 100%;
+        height: 250px;
+        float: left;
+        margin-top: 30px;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
